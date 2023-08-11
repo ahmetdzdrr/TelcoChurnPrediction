@@ -10,26 +10,48 @@ Dataset Description
 The dataset comprises the following columns:
 
 customerID: A unique identifier for each customer.
+
 gender: The gender of the customer.
+
 SeniorCitizen: Indicates if the customer is a senior citizen (1) or not (0).
+
 Partner: Indicates if the customer has a partner (Yes) or not (No).
+
 Dependents: Indicates if the customer has dependents (Yes) or not (No).
+
 tenure: The duration, in months, that the customer has been with the company.
+
 PhoneService: Indicates if the customer has phone service (Yes) or not (No).
+
 MultipleLines: Indicates if the customer has multiple lines (Yes, No, or No phone service).
+
 InternetService: The type of internet service the customer has (DSL, Fiber optic, or No).
+
 OnlineSecurity: Indicates if the customer has online security (Yes, No, or No internet service).
+
 OnlineBackup: Indicates if the customer has online backup (Yes, No, or No internet service).
+
 DeviceProtection: Indicates if the customer has device protection (Yes, No, or No internet service).
+
 TechSupport: Indicates if the customer has tech support (Yes, No, or No internet service).
+
 StreamingTV: Indicates if the customer has streaming TV (Yes, No, or No internet service).
+
 StreamingMovies: Indicates if the customer has streaming movies (Yes, No, or No internet service).
+
 Contract: The contract term of the customer (Month-to-month, One year, Two year).
+
 PaperlessBilling: Indicates if the customer has paperless billing (Yes) or not (No).
+
 PaymentMethod: The method by which the customer makes payments.
+
 MonthlyCharges: The monthly amount charged to the customer.
+
 TotalCharges: The total amount charged to the customer.
+
 Churn: Indicates if the customer churned (Yes) or not (No).
+
+
 Objective
 
 The main objective of working with this dataset is to understand the factors that influence customer churn and to build predictive models that can help identify potential churners. By analyzing the provided attributes, we can uncover patterns and insights that may guide business decisions aimed at reducing customer churn and improving customer retention.
