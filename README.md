@@ -74,7 +74,9 @@ The CFG class is a configuration class designed to control various data preproce
 Outlier Handling
 
 outlier_clipper: If set to True, outliers in the data will be clipped to a specified range.
+
 outlier_remover: If set to True, outliers will be removed from the dataset.
+
 outlier_replacer: If set to True, outliers will be replaced with a central value (e.g., mean or median).
 
 ***************************************************************************************************************
@@ -82,7 +84,9 @@ outlier_replacer: If set to True, outliers will be replaced with a central value
 Encoding Techniques
 
 one_hot_encoder: If set to True, categorical variables will be one-hot encoded.
+
 label_encoder: If set to True, categorical variables will be label encoded.
+
 ordinal_encoder: If set to True, ordinal categorical variables will be encoded.
 
 ***************************************************************************************************************
@@ -90,8 +94,13 @@ ordinal_encoder: If set to True, ordinal categorical variables will be encoded.
 Feature Scaling
 
 min_max_scaler: If set to True, data will be scaled using Min-Max scaling.
+
 robust_scaler: If set to True, data will be scaled using Robust scaling.
+
 standard_scaler: If set to True, data will be scaled using Standard scaling.
+
+***************************************************************************************************************
+
 How to Use the CFG Class
 
 To utilize the CFG class for data preprocessing, follow these steps:
@@ -117,6 +126,9 @@ Apply label encoding codes
 if CFG.robust_scaler:
 
 Apply Robust scaling codes
+
+***************************************************************************************************************
+***************************************************************************************************************
 
 ![download](https://github.com/ahmetdzdrr/TelcoChurnPrediction/assets/117534684/e860a919-63ba-4512-ac68-f56ee7f86914)
 
