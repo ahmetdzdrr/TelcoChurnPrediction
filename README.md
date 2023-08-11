@@ -133,6 +133,7 @@ Apply Robust scaling codes
 ![download](https://github.com/ahmetdzdrr/TelcoChurnPrediction/assets/117534684/e860a919-63ba-4512-ac68-f56ee7f86914)
 
 Visualizing Null and Non-Null Values
+
 In this section, a visualization is created to illustrate the distribution of null and non-null values for each column in the DataFrame (df). The code provided generates a horizontal bar chart using matplotlib to display the percentage of null and non-null values for each column.
 
 1. Creating Null Value DataFrame
@@ -151,8 +152,11 @@ Axis labels, ticks, title, and legend are added to enhance the visualization. Th
 
 Finally, the visualization is displayed using plt.tight_layout() and plt.show().
 
+***************************************************************************************************************
+***************************************************************************************************************
 
 Box Plot Visualization Function and Usage Example
+
 The provided Python function, plot_boxplots, is designed to create box plot visualizations for a set of numeric columns in a DataFrame. Box plots are useful for visualizing the distribution, central tendency, and spread of data within each column.
 
 How It Works
@@ -164,15 +168,22 @@ The title of each subplot is set to indicate the column name.
 
 ![__results___22_0](https://github.com/ahmetdzdrr/TelcoChurnPrediction/assets/117534684/18e57f68-eccc-416a-8ef5-32e10ba0ca3c)
 
+***************************************************************************************************************
+***************************************************************************************************************
+
 CORRELATION MATRIX
 
 ![__results___23_0](https://github.com/ahmetdzdrr/TelcoChurnPrediction/assets/117534684/cbe92130-915f-4414-bd65-06647bba2e25)
 
+***************************************************************************************************************
+***************************************************************************************************************
 
 TARGET VISUALIZATION
 
 ![__results___24_0](https://github.com/ahmetdzdrr/TelcoChurnPrediction/assets/117534684/88d484b3-420c-436b-982b-f786f5ce9eb7)
 
+***************************************************************************************************************
+***************************************************************************************************************
 
 FEATURE EXTRACTION VISUALIZATION
 
