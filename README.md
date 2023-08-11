@@ -127,8 +127,6 @@ Axis labels, ticks, title, and legend are added to enhance the visualization. Th
 
 Finally, the visualization is displayed using plt.tight_layout() and plt.show().
 
-![__results___13_0](https://github.com/ahmetdzdrr/TelcoChurnPrediction/assets/117534684/127af749-ef30-4347-96a7-724951488f0b)
-
 
 Box Plot Visualization Function and Usage Example
 The provided Python function, plot_boxplots, is designed to create box plot visualizations for a set of numeric columns in a DataFrame. Box plots are useful for visualizing the distribution, central tendency, and spread of data within each column.
