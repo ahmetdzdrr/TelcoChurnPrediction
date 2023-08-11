@@ -156,6 +156,7 @@ FEATURE EXTRACTION VISUALIZATION
 
 
 Data Preprocessing: Outlier Handling
+
 In this section, we define a DataProcessorOutlier class responsible for preprocessing the data to handle outliers based on a given configuration (cfg). This class encapsulates methods to clip, remove, or replace outliers in the input DataFrame.
 
 1. Outlier Clipping (outlier_clipper)
@@ -175,7 +176,10 @@ After defining these outlier handling methods, the process_data function takes a
 Finally, an instance of the DataProcessorOutlier class is created with a configuration object (CFG()), and the process_data method is called on the input DataFrame df.
 
 
+
+
 Data Preprocessing: Encoding Categorical Variables
+
 In this section, we define a DataProcessorEncode class responsible for encoding categorical variables within a given DataFrame. The class offers different encoding techniques based on the provided configuration (cfg).
 
 1. One-Hot Encoding (one_hot_encoder)
@@ -195,7 +199,10 @@ After defining these encoding methods, the encode_data function takes a DataFram
 Finally, an instance of the DataProcessorEncode class is created with a configuration object (CFG()), and the encode_data method is called on the input DataFrame df. The encoded DataFrame df is returned and displayed using the .head() method.
 
 
+
+
 Data Preprocessing: Feature Scaling
+
 In this section, we define a DataProcessorScaled class responsible for scaling numerical features within a given DataFrame. The class provides different scaling techniques based on the provided configuration (cfg).
 
 1. Min-Max Scaling (min_max_scaler)
