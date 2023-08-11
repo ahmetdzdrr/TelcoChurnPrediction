@@ -51,6 +51,8 @@ TotalCharges: The total amount charged to the customer.
 
 Churn: Indicates if the customer churned (Yes) or not (No).
 
+***************************************************************************************************************
+***************************************************************************************************************
 
 Objective
 
@@ -60,9 +62,13 @@ The dataset's attributes cover a range of customer-related aspects, from demogra
 
 In the following sections, we will explore and preprocess the dataset, perform exploratory data analysis (EDA), and potentially build predictive models to achieve the stated objectives.
 
+***************************************************************************************************************
+***************************************************************************************************************
+
 ![Screenshot_21](https://github.com/ahmetdzdrr/TelcoChurnPrediction/assets/117534684/429a05e4-c184-4b43-90c1-99a18b4b0858)
 
 Configuration Class (CFG) for Data Preprocessing
+
 The CFG class is a configuration class designed to control various data preprocessing steps in a machine learning pipeline. By modifying the attributes within this class, you can easily customize the data preprocessing techniques applied to your dataset before training a machine learning model. Let's explore the attributes and their meanings in more detail.
 
 Outlier Handling
@@ -70,11 +76,17 @@ Outlier Handling
 outlier_clipper: If set to True, outliers in the data will be clipped to a specified range.
 outlier_remover: If set to True, outliers will be removed from the dataset.
 outlier_replacer: If set to True, outliers will be replaced with a central value (e.g., mean or median).
+
+***************************************************************************************************************
+
 Encoding Techniques
 
 one_hot_encoder: If set to True, categorical variables will be one-hot encoded.
 label_encoder: If set to True, categorical variables will be label encoded.
 ordinal_encoder: If set to True, ordinal categorical variables will be encoded.
+
+***************************************************************************************************************
+
 Feature Scaling
 
 min_max_scaler: If set to True, data will be scaled using Min-Max scaling.
@@ -233,8 +245,11 @@ Next, we apply SMOTE to the training data. The fit_resample method of the SMOTE 
 
 ![Screenshot_22](https://github.com/ahmetdzdrr/TelcoChurnPrediction/assets/117534684/e73118be-8fee-447b-9b22-297943da39de)
 
+***************************************************************************************************************
+***************************************************************************************************************
 
 Model Training, Evaluation, and Result Visualization
+
 In this section, a function named model is defined to train, evaluate, and visualize the performance of a set of machine learning models. Additionally, another function named model_to_dataframe is provided to summarize the results of the model evaluations in a structured DataFrame.
 
 1. plot_confusion_matrix Function
@@ -262,8 +277,11 @@ The models are trained, evaluated, and ranked based on their accuracy in descend
 
 ![Screenshot_23](https://github.com/ahmetdzdrr/TelcoChurnPrediction/assets/117534684/307c88aa-e66a-4343-ad2f-d11fd1ffb79b)
 
+***************************************************************************************************************
+***************************************************************************************************************
 
 Hyperparameter Tuning Function
+
 This function, named hyperparameter_tuning, is designed for performing hyperparameter tuning for a collection of machine learning models. It takes a dictionary of models along with corresponding params (hyperparameter grids), input features X, target variable y, and an optional cv (cross-validation) parameter.
 
 The function iterates through each model specified in the models dictionary and performs hyperparameter tuning if hyperparameters are provided in the params dictionary. For each model, it follows these steps:
@@ -284,6 +302,8 @@ Note: Ensure that you have the required libraries imported (GridSearchCV, CatBoo
 
 ![Screenshot_24](https://github.com/ahmetdzdrr/TelcoChurnPrediction/assets/117534684/802bbca2-ae2c-4914-91a1-b2742b4caf74)
 
+***************************************************************************************************************
+***************************************************************************************************************
 
 FEATURE IMPORTANCE
 
