@@ -175,8 +175,8 @@ After defining these outlier handling methods, the process_data function takes a
 
 Finally, an instance of the DataProcessorOutlier class is created with a configuration object (CFG()), and the process_data method is called on the input DataFrame df.
 
-
-
+***************************************************************************************************************
+***************************************************************************************************************
 
 Data Preprocessing: Encoding Categorical Variables
 
@@ -198,8 +198,8 @@ After defining these encoding methods, the encode_data function takes a DataFram
 
 Finally, an instance of the DataProcessorEncode class is created with a configuration object (CFG()), and the encode_data method is called on the input DataFrame df. The encoded DataFrame df is returned and displayed using the .head() method.
 
-
-
+***************************************************************************************************************
+***************************************************************************************************************
 
 Data Preprocessing: Feature Scaling
 
@@ -221,6 +221,8 @@ After defining these scaling methods, the scaled_data function takes a DataFrame
 
 Finally, an instance of the DataProcessorScaled class is created with a configuration object (CFG()), and the scaled_data method is called on the input DataFrame df. The scaled DataFrame df is returned and displayed using the .head() method.
 
+***************************************************************************************************************
+***************************************************************************************************************
 
 Handling Class Imbalance with SMOTE
 In this section, we address the issue of class imbalance in the dataset by employing the Synthetic Minority Over-sampling Technique (SMOTE). SMOTE is a technique used to balance the distribution of the classes by generating synthetic samples for the minority class.
